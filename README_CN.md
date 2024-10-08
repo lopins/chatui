@@ -18,7 +18,7 @@
 
 ### 选项 1: 访问演示 [AIQL](https://chat.aiql.com/) 
 
-> 演示默认使用 `Llama 3.1` 
+> 演示默认使用 `Qwen 2.5` 
 
 ### 选项 2: 下载 [Index](./index.html) 并本地打开（推荐） 
 
@@ -34,9 +34,9 @@ docker run -p 8080:8080 -d aiql/chat-ui
 
 ## 如何配置 
 
-默认情况下，聊天机器人将使用与OpenAI Chatgpt相同的API格式。您可以插入您的OpenAI `API密钥` 并直接使用它。 
+默认情况下，聊天机器人将使用与OpenAI Chatgpt相同的API格式。您可以插入您的OpenAI `API Key` 并直接使用它。 
 
-或者更改配置中的 `端点` 以使用其他供应商的API 
+或者更改配置中的 `Endpoint` 以使用其他供应商的API 
 
 > 您可以从 [示例](./example/config) 下载配置模板，并使用它进行快速配置 
 
